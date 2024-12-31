@@ -20,3 +20,4 @@ christmas-calendar
 - Tilbakestillingsknapp for å la brukere starte på nytt.
 - Brukere kan legge til sine egne julemeldinger for en hvilken som helst dato.
 - Lydavspilling når en luke åpnes.
+- Try-catch blokker er lagt til for å håndtere feil.
