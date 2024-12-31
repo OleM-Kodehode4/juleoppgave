@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaktiv Julekalender</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="calendar-container">
+      <h1>Julekalender</h1>
+      <div id="calendar-grid">
+        <!-- Dager 1-24 -->
+      </div>
+      <button id="reset-button">Tilbakestill Kalender</button>
+      <div id="custom-message">
+        <h3>Legg til din egen melding:</h3>
+        <input
+          type="number"
+          id="custom-date"
+          placeholder="Dato (1-24)"
+          min="1"
+          max="24" />
+        <input type="text" id="custom-text" placeholder="Din julemelding" />
+        <button id="add-message-button">Legg til</button>
+      </div>
+      <div id="popup" class="hidden">
+        <span id="popup-close">&times;</span>
+        <p id="popup-content"></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -10,7 +10,6 @@ christmas-calendar
 │   ├── index.html       # HTML structure for the calendar
 │   ├── styles.css       # CSS styles for the calendar
 │   └── app.js           # JavaScript logic for interactivity
-├── package.json          # npm configuration file
 └── README.md             # Project documentation
 ```
 
@@ -23,9 +22,6 @@ christmas-calendar
 - Users can add their own Christmas messages for any date.
 
 ## Getting Started
-
-### Prerequisites
-- Node.js installed on your machine.
 
 ### Installation
 1. Clone the repository:
