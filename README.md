@@ -1,48 +1,22 @@
-# Christmas Calendar Interactive Application
+# Interaktiv Julekalender
 
-## Overview
-This project is an interactive Christmas calendar that allows users to click on dates (1-24) to reveal a "luke" containing a random Christmas fact or joke. The calendar is designed with a festive theme and includes features for user interaction.
+## Oversikt
+Dette prosjektet er en interaktiv julekalender som lar brukere klikke på datoer (1-24) for å åpne en "luke" som inneholder en tilfeldig julefakta eller vits. Kalenderen er designet med et festlig tema og inkluderer funksjoner for brukerinteraksjon.
 
-## Project Structure
+## Prosjektstruktur
 ```
 christmas-calendar
-├── src
-│   ├── index.html       # HTML structure for the calendar
-│   ├── styles.css       # CSS styles for the calendar
-│   └── app.js           # JavaScript logic for interactivity
-└── README.md             # Project documentation
+├── index.html       # HTML-struktur for kalenderen
+├── styles.css       # CSS-stiler for kalenderen
+├── script.js        # JavaScript-logikk for interaktivitet
+└── README.md        # Prosjektdokumentasjon
 ```
 
-## Features
-- 5x5 grid layout representing the days of December leading up to Christmas.
-- Each cell displays a number from 1 to 24.
-- Clicking on a date fetches a random joke or fact from an API.
-- Once a date is opened, it cannot be opened again.
-- Reset button to allow users to start over.
-- Users can add their own Christmas messages for any date.
-
-## Getting Started
-
-### Installation
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd christmas-calendar
-   ```
-3. Install dependencies:
-   ```
-   npm install
-   ```
-
-### Running the Application
-1. Open `src/index.html` in your web browser to view the calendar.
-2. Click on any date to reveal the content.
-
-## Contributing
-Feel free to submit issues or pull requests for any enhancements or bug fixes.
-
-## License
-This project is open-source and available under the MIT License.
+## Funksjoner
+- 5x5 grid-layout som representerer dagene i desember frem til jul.
+- Hver celle viser et nummer fra 1 til 24.
+- Klikking på en dato henter en tilfeldig vits eller fakta fra et API.
+- Når en dato er åpnet, kan den ikke åpnes igjen.
+- Tilbakestillingsknapp for å la brukere starte på nytt.
+- Brukere kan legge til sine egne julemeldinger for en hvilken som helst dato.
+- Lydavspilling når en luke åpnes.
